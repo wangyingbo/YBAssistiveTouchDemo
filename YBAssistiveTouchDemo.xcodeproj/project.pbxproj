@@ -15,6 +15,12 @@
 		036AB250206A200400EBF397 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 036AB24F206A200400EBF397 /* main.m */; };
 		036AB25A206A200400EBF397 /* YBAssistiveTouchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 036AB259206A200400EBF397 /* YBAssistiveTouchDemoTests.m */; };
 		036AB265206A200400EBF397 /* YBAssistiveTouchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 036AB264206A200400EBF397 /* YBAssistiveTouchDemoUITests.m */; };
+		036AB27F206A208000EBF397 /* NSObject+YBSuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036AB275206A208000EBF397 /* NSObject+YBSuspensionView.m */; };
+		036AB280206A208000EBF397 /* YBSuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036AB276206A208000EBF397 /* YBSuspensionView.m */; };
+		036AB281206A208000EBF397 /* YBSuspensionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 036AB277206A208000EBF397 /* YBSuspensionManager.m */; };
+		036AB282206A208000EBF397 /* YBCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036AB27C206A208000EBF397 /* YBCollectionViewController.m */; };
+		036AB283206A208000EBF397 /* YBFuncItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 036AB27D206A208000EBF397 /* YBFuncItemManager.m */; };
+		036AB286206A20D800EBF397 /* YBTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036AB285206A20D800EBF397 /* YBTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		036AB260206A200400EBF397 /* YBAssistiveTouchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBAssistiveTouchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		036AB264206A200400EBF397 /* YBAssistiveTouchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAssistiveTouchDemoUITests.m; sourceTree = "<group>"; };
 		036AB266206A200400EBF397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036AB274206A208000EBF397 /* YBSuspensionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSuspensionManager.h; sourceTree = "<group>"; };
+		036AB275206A208000EBF397 /* NSObject+YBSuspensionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YBSuspensionView.m"; sourceTree = "<group>"; };
+		036AB276206A208000EBF397 /* YBSuspensionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSuspensionView.m; sourceTree = "<group>"; };
+		036AB277206A208000EBF397 /* YBSuspensionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSuspensionManager.m; sourceTree = "<group>"; };
+		036AB278206A208000EBF397 /* NSObject+YBSuspensionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YBSuspensionView.h"; sourceTree = "<group>"; };
+		036AB279206A208000EBF397 /* YBSuspensionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSuspensionView.h; sourceTree = "<group>"; };
+		036AB27B206A208000EBF397 /* YBFuncItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBFuncItemManager.h; sourceTree = "<group>"; };
+		036AB27C206A208000EBF397 /* YBCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCollectionViewController.m; sourceTree = "<group>"; };
+		036AB27D206A208000EBF397 /* YBFuncItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBFuncItemManager.m; sourceTree = "<group>"; };
+		036AB27E206A208000EBF397 /* YBCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCollectionViewController.h; sourceTree = "<group>"; };
+		036AB284206A20D800EBF397 /* YBTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBTestViewController.h; sourceTree = "<group>"; };
+		036AB285206A20D800EBF397 /* YBTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,13 @@
 		036AB23F206A200400EBF397 /* YBAssistiveTouchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				036AB272206A208000EBF397 /* YBAssistiveTouchLib */,
 				036AB240206A200400EBF397 /* AppDelegate.h */,
 				036AB241206A200400EBF397 /* AppDelegate.m */,
 				036AB243206A200400EBF397 /* ViewController.h */,
 				036AB244206A200400EBF397 /* ViewController.m */,
+				036AB284206A20D800EBF397 /* YBTestViewController.h */,
+				036AB285206A20D800EBF397 /* YBTestViewController.m */,
 				036AB246206A200400EBF397 /* Main.storyboard */,
 				036AB249206A200400EBF397 /* Assets.xcassets */,
 				036AB24B206A200400EBF397 /* LaunchScreen.storyboard */,
@@ -130,6 +151,39 @@
 				036AB266206A200400EBF397 /* Info.plist */,
 			);
 			path = YBAssistiveTouchDemoUITests;
+			sourceTree = "<group>";
+		};
+		036AB272206A208000EBF397 /* YBAssistiveTouchLib */ = {
+			isa = PBXGroup;
+			children = (
+				036AB273206A208000EBF397 /* YBSuspensionView */,
+				036AB27A206A208000EBF397 /* YBFuncItemManager */,
+			);
+			path = YBAssistiveTouchLib;
+			sourceTree = "<group>";
+		};
+		036AB273206A208000EBF397 /* YBSuspensionView */ = {
+			isa = PBXGroup;
+			children = (
+				036AB275206A208000EBF397 /* NSObject+YBSuspensionView.m */,
+				036AB278206A208000EBF397 /* NSObject+YBSuspensionView.h */,
+				036AB274206A208000EBF397 /* YBSuspensionManager.h */,
+				036AB277206A208000EBF397 /* YBSuspensionManager.m */,
+				036AB279206A208000EBF397 /* YBSuspensionView.h */,
+				036AB276206A208000EBF397 /* YBSuspensionView.m */,
+			);
+			path = YBSuspensionView;
+			sourceTree = "<group>";
+		};
+		036AB27A206A208000EBF397 /* YBFuncItemManager */ = {
+			isa = PBXGroup;
+			children = (
+				036AB27B206A208000EBF397 /* YBFuncItemManager.h */,
+				036AB27D206A208000EBF397 /* YBFuncItemManager.m */,
+				036AB27E206A208000EBF397 /* YBCollectionViewController.h */,
+				036AB27C206A208000EBF397 /* YBCollectionViewController.m */,
+			);
+			path = YBFuncItemManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +320,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				036AB245206A200400EBF397 /* ViewController.m in Sources */,
+				036AB282206A208000EBF397 /* YBCollectionViewController.m in Sources */,
+				036AB280206A208000EBF397 /* YBSuspensionView.m in Sources */,
 				036AB250206A200400EBF397 /* main.m in Sources */,
+				036AB27F206A208000EBF397 /* NSObject+YBSuspensionView.m in Sources */,
 				036AB242206A200400EBF397 /* AppDelegate.m in Sources */,
+				036AB281206A208000EBF397 /* YBSuspensionManager.m in Sources */,
+				036AB283206A208000EBF397 /* YBFuncItemManager.m in Sources */,
+				036AB286206A20D800EBF397 /* YBTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				DEVELOPMENT_TEAM = 2R36ULMSTJ;
 				INFOPLIST_FILE = YBAssistiveTouchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.YBAssistiveTouchDemo;
@@ -445,7 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				DEVELOPMENT_TEAM = 2R36ULMSTJ;
 				INFOPLIST_FILE = YBAssistiveTouchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.YBAssistiveTouchDemo;
