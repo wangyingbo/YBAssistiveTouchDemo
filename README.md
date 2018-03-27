@@ -57,7 +57,7 @@
 
 
 
-![图片](https://raw.githubusercontent.com/wangyingbo/YBAssistiveTouchDemo/master/gif.gif)
+![图片](https://raw.githubusercontent.com/wangyingbo/YBAssistiveTouchDemo/master/sources/gif.gif)
 
 ![screenShot1](https://raw.githubusercontent.com/wangyingbo/YBAssistiveTouchDemo/master/sources/screen_shot_1.png)
 
