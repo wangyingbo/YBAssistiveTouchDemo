@@ -59,8 +59,15 @@
 
 ![图片](https://raw.githubusercontent.com/wangyingbo/YBAssistiveTouchDemo/master/sources/gif.gif)
 
-![screenShot1](https://raw.githubusercontent.com/wangyingbo/YBAssistiveTouchDemo/master/sources/screen_shot_1.png)
+
+<!--![screenShot1](https://raw.githubusercontent.com/wangyingbo/YBAssistiveTouchDemo/master/sources/screen_shot_1.png)
 
 ![screenShot2](https://raw.githubusercontent.com/wangyingbo/YBAssistiveTouchDemo/master/sources/screen_shot_2.png)
 
-![screenShot3](https://raw.githubusercontent.com/wangyingbo/YBAssistiveTouchDemo/master/sources/screen_shot_3.png)
+![screenShot3](https://raw.githubusercontent.com/wangyingbo/YBAssistiveTouchDemo/master/sources/screen_shot_3.png)-->
+
+<img src="https://raw.githubusercontent.com/wangyingbo/YBAssistiveTouchDemo/master/sources/screen_shot_1.png" width = "299" height = "517" alt="screenShot1" align=center />
+
+<img src="https://raw.githubusercontent.com/wangyingbo/YBAssistiveTouchDemo/master/sources/screen_shot_2.png" width = "299" height = "517" alt="screenShot2" align=center />
+
+<img src="https://raw.githubusercontent.com/wangyingbo/YBAssistiveTouchDemo/master/sources/screen_shot_3.png" width = "299" height = "517" alt="screenShot3" align=center />
