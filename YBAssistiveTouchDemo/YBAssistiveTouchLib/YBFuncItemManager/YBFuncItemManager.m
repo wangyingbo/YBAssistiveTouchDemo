@@ -43,12 +43,13 @@ extern CGFloat suspensionViewAlpha;
 {
     CGFloat margin = 30;
     //origin.x可用[YBSuspensionView suggestXWithWidth:100]方法
-    YBSuspensionView *susView = [[YBSuspensionView alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width - margin/2 - suspensionView_w_h, [UIScreen mainScreen].bounds.size.height - margin - suspensionView_w_h, suspensionView_w_h, suspensionView_w_h) color:[UIColor greenColor] delegate:self];
+    YBSuspensionView *susView = [[YBSuspensionView alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width - margin/2 - suspensionView_w_h, [UIScreen mainScreen].bounds.size.height - margin - suspensionView_w_h, suspensionView_w_h, suspensionView_w_h) color:[UIColor clearColor] delegate:self];
     susView.leanType = YBSuspensionViewLeanTypeEachSide;
     susView.cancelMove = YES;
     susView.layer.cornerRadius = suspensionView_w_h/2;
     susView.alpha = 1.;
-    //[susView setBackgroundImage:[UIImage imageNamed:@"assistive_bg_image"] forState:UIControlStateNormal];
+    [susView setBackgroundImage:[UIImage imageNamed:@"multiselect_confirm_button_icon"] forState:UIControlStateNormal];
+    susView.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 3.5, 0);
     [susView setTitle:@"ADD" forState:UIControlStateNormal];
     susView.addedWindow = NO;
     [containerView addSubview:susView];

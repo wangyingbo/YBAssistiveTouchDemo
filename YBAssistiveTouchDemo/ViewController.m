@@ -40,21 +40,21 @@
 - (void)selector1
 {
     __weak typeof(self)weakSelf = self;
-    YBItemDataModel *model1 = [YBItemDataModel createModelImage:[UIImage imageNamed:@"180_180"] title:@"item1" handler:^(NSInteger index) {
+    YBItemDataModel *model1 = [YBItemDataModel createModelImage:[UIImage imageNamed:@"func_item_icon_新增"] title:@"新增" handler:^(NSInteger index) {
         NSLog(@"点击了第%ld个",(long)index);
         YBTestViewController *testViewController = [[YBTestViewController alloc] init];
         [weakSelf.navigationController pushViewController:testViewController animated:YES];
     }];
-    YBItemDataModel *model2 = [YBItemDataModel createModelImage:nil title:@"item2" handler:^(NSInteger index) {
+    YBItemDataModel *model2 = [YBItemDataModel createModelImage:[UIImage imageNamed:@"func_item_icon_编辑"] title:@"编辑" handler:^(NSInteger index) {
         NSLog(@"点击了第%ld个",(long)index);
     }];
-    YBItemDataModel *model3 = [YBItemDataModel createModelImage:nil title:@"item2" handler:^(NSInteger index) {
+    YBItemDataModel *model3 = [YBItemDataModel createModelImage:[UIImage imageNamed:@"func_item_icon_借用"] title:@"借用" handler:^(NSInteger index) {
         NSLog(@"点击了第%ld个",(long)index);
     }];
-    YBItemDataModel *model4 = [YBItemDataModel createModelImage:nil title:@"item2" handler:^(NSInteger index) {
+    YBItemDataModel *model4 = [YBItemDataModel createModelImage:[UIImage imageNamed:@"func_item_icon_领用"] title:@"领用" handler:^(NSInteger index) {
         NSLog(@"点击了第%ld个",(long)index);
     }];
-    YBItemDataModel *model5 = [YBItemDataModel createModelImage:nil title:@"item2" handler:^(NSInteger index) {
+    YBItemDataModel *model5 = [YBItemDataModel createModelImage:[UIImage imageNamed:@"func_item_icon_签字"] title:@"签字" handler:^(NSInteger index) {
         NSLog(@"点击了第%ld个",(long)index);
     }];
     
